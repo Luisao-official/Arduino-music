@@ -1,12 +1,12 @@
 # MusicXML to Arduino Melody Converter
 
-This project provides a script that converts MusicXML files into melodies that can be played by an well known Arduino sketch. It allows you to easily generate Arduino code for playing melodies from sheet music.
+This project provides a script that converts MusicXML files into melodies that can be played by a [well-known Arduino sketch](https://github.com/robsoncouto/arduino-songs). It allows you to easily generate Arduino code for playing melodies from sheet music.
 
 ## Features :musical_note:
 
 - Converts MusicXML files into Arduino-compatible melody code
-- Supports a wide range of MusicXML features, including notes, rests, durations, dynamics, and more
-- Provides options for customizing the generated Arduino code, such as tempo, pin configuration, and melody duration
+- Can generate .ino scripts ready for upload
+- Provides options for customizing the generated Arduino code, such as tempo and pin configuration
 - Easy to integrate into your Arduino projects
 
 ## Getting Started
@@ -23,9 +23,9 @@ The script accepts a MusicXML file as input and generates Arduino code that play
 
 You can convert midi files to MusicXML using [MuseScore](https://musescore.org/en) or the [Romot Online converted](https://romot-co.github.io/midi-musicxml-seq/).
 
-If you want to edit the melody, you can edit the midi format of the melody on your favorite DAW, or [Signal](https://signal.vercel.app/edit) online editor and then convert it to MusicXML.
+If you want to edit the melody, you can edit the midi format on your favorite DAW, or [Signal](https://signal.vercel.app/edit) online editor and then convert it to MusicXML.
 
-For detailed usage instructions, refer to the [documentation](docs/usage.md).
+For detailed usage instructions, please take a look at the [documentation](docs/usage.md).
 
 ## Examples
 
@@ -43,6 +43,10 @@ To help you get started, we have provided some example MusicXML files in the `ex
 ## Contributing
 
 Contributions are welcome! If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request. For more information, see our [contribution guidelines](CONTRIBUTING.md).
+
+##Credits
+
+The Arduino script is based on [Robson Couto's](https://github.com/robsoncouto) work
 
 ## License
 
