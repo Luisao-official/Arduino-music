@@ -13,7 +13,7 @@ This project provides a script that converts MusicXML files into melodies that c
 
 To get started with the MusicXML to Arduino Melody Converter, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/musicxml-to-arduino.git` (or download  and extract the zip file)
+1. Clone the repository: `git clone https://github.com/Luisao-official/Arduino-music.git` (or download  and extract the zip file)
 1. Run the script: `python ardu_music.py`
 2. The converted Arduino code will be generated in the output directory.
 
@@ -31,7 +31,7 @@ For detailed usage instructions, please take a look at the [documentation](docs/
 
 ## Examples
 
-To help you get started, we have provided some example MusicXML files in the `examples` directory. You can use these files to test the converter and see how the generated Arduino code sounds.
+To help you get started, we have provided some example MusicXML files in the [examples](examples/EXAMPLES.md) directory. You can use these files to test the converter and see how the generated Arduino code sounds.
 
 
 ## Issues and TODOs
